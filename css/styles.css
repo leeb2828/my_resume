@@ -1,0 +1,182 @@
+@import url(http://fonts.googleapis.com/css?family=Carme);
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: carme, sans-serif;
+    background: rgb(165, 162, 162);
+    /* background: #EDB88B; */
+}
+
+body,
+#name_and_social_media {
+    font-size: 14px;
+}
+
+main {
+    background: #fff;
+    padding: 1px;
+    margin: 0;
+    width: 100%;
+    max-width: 750px;
+    min-height: calc(100vh - 80px);
+}
+
+#me {
+    padding: 1px;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    
+}
+
+#profile_image {
+    width: 110px;
+    height: 110px;
+    padding: 1px;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.profile_pic {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    transition: all .5s; 
+}
+
+.profile_pic:hover {
+    transform: scale(0.9) rotate(10deg);
+} 
+
+#profile_image,
+#name_and_social_media {
+    float: left;
+} 
+
+#name_and_social_media {
+    padding: 1px;
+    margin-left: 2px;
+    width: 150px;
+    height: auto;
+}
+
+.header_title {
+    font-size: 18px;
+    font-weight: 800;
+    font-weight: bolder;
+}
+
+a.social_media {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    transition: all .5s;
+}
+
+a.social_media:hover {
+    transform: scale(0.9) rotate(10deg);
+}
+
+a.twitter {
+    background-image: url(../images/twitter.svg);
+}
+
+a.github {
+    background-image: url(../images/github.svg);
+}
+
+a.linkedin {
+    background-image: url(../images/linkedin.svg);
+}
+
+#personal_description,
+#project_description {
+    clear: both;
+    max-width: 695px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#skills,
+#education,
+#projects {
+    padding: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    display: block;
+    overflow: auto;
+}
+
+
+ul.skillset {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0 0 0 0;
+}
+
+ul.skillset:nth-of-type(3n) {
+    margin-bottom: 13px;
+}
+
+p.degree_type {
+    font-style: italic;
+}
+
+div.first {
+    margin-top: 2.5em;
+}
+
+p.school,
+p.project_name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p.degree_type,
+p.major {
+    font-size: 14px;
+}
+
+div.single_school {
+    line-height: 0.75em;
+    margin-bottom: 2em;
+}
+
+span.date {
+    display: inline-block;
+    text-indent: 1em;
+}
+
+#projects {
+    height: auto;
+    width: 95%;
+    max-width: 700px;
+}
+
+.single_project {
+    margin-bottom: 2em;
+}
+
+.single_project a {
+    color: blue;
+}
+
+.project_name {
+    margin-bottom: 0.4em;
+}
+
+.project_description {
+    margin-top: 0.4em;
+}
